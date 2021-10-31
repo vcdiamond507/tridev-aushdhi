@@ -77,6 +77,41 @@ End of Table of Content Css End **/
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 html, 
 body{overflow-x:hidden;}
+.tridev-aushdhi
+{
+	color: rgb(94, 92, 92);
+	margin-left: 10px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14px;
+	letter-spacing: 1px;
+
+}
+@media only screen and (max-width: 600px) {
+	.talent-wins
+	{
+		font-size: 25px;
+	}
+	.champions
+	{
+		font-size: 24px;
+		color: rgb(36, 119, 36);
+	}
+	
+	.good-team
+	{
+		font-size: 11px;
+	}
+	.coming {
+		font-size: 15px;
+		color: rgb(223, 222, 222);
+		letter-spacing: 1px;
+	}
+	.there-is
+	{
+		font-size: 15px;
+	}
+  }
 body {
 	float: left;
 	margin: 0px;
@@ -4235,7 +4270,7 @@ Filterable Gallery Css*/
   float: left;
   width: 100%;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #bbb7b7;
   line-height: 60px;
   position: relative;
   -webkit-border-radius: 5px;
@@ -5257,7 +5292,7 @@ nav div ul li.menu-item-has-children:hover > ul > li {
   width: 50%;
 }
 .res-top-links > a {
-  float: right;
+
   padding: 12.5px 10px;
   color: #d6d4d4;
   font-size: 13px;
@@ -5278,11 +5313,18 @@ nav div ul li.menu-item-has-children:hover > ul > li {
 }
 .res-top-links2 > a:nth-child(2n) {background-color: rgba(255,255,255,.05);}
 .res-logo-sec {
-  float: left;
+background-color: rgb(212, 212, 212);
+height: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
   width: 100%;
-  padding: 20.5px 30px;
+padding: 15px 20px;
 }
-.res-logo-sec .logo {padding: 0;}
+.res-logo-sec .logo {
+	padding: 0;
+	float: left;
+}
 .res-logo-sec .logo img
 {
 	height: 50px;
