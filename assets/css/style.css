@@ -331,11 +331,23 @@ label,
 	-webkit-border-radius: 5px;
   	border-radius: 5px;
 }
-.cp-thumb img{
+.galleryimg{
 	max-width: 100%;
 	width: 100%;
 	height: auto;
 }
+.projectimg{
+	max-width: 100%;
+	width: 100%;
+	height: 250px;
+}
+.detailed-img
+{
+	max-width: 100%;
+	width: 100%;
+	height: 400px;
+}
+
 .cp-thumb:hover img{
 	-webkit-transform: scale(1.2) rotate(3deg);
 	-moz-transform: scale(1.2) rotate(3deg);
@@ -1332,9 +1344,8 @@ ul.top-info > li i {margin-right: 3px;}
   	overflow: hidden;
 }
 .sm-thumb img{
-	max-width: 100%;
-	width: 100%;
-	height: auto;
+	width: 100px;
+	height: 100px;
 }
 .recent-list .cp-text {
 	float: none;
@@ -3603,17 +3614,18 @@ Filterable Gallery Css*/
 .cp-profile-info h4{
 	font-weight: 700;
 	margin-bottom: 20px;
+	
 }
 .cp-profile-info .sm-thumb{
-	width: 70px;
+	width: 100px;
 	margin-right: 18px;
 	float: left;
+	
 }
 .cp-profile-info .sm-thumb img{
-	width: 100%;
-	height: auto;
-	-webkit-border-radius: 100%;
-	border-radius: 100%;
+	width: 80px;
+	height: 8container0px;
+	border-radius: 50%;
 }
 .profile-info-listed{
 	display: flex;
@@ -4269,7 +4281,7 @@ Filterable Gallery Css*/
 .cp-sponsors-section .item > a {
   float: left;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   background-color: #bbb7b7;
   line-height: 60px;
   position: relative;
@@ -4279,10 +4291,10 @@ Filterable Gallery Css*/
 .cp-sponsors-section .item > a img {
   width: auto;
   display: inline-block;
-  -webkit-filter: brightness(0);
-  -ms-filter: brightness(0);
-  -o-filter: brightness(0);
-  filter: brightness(0);
+  -webkit-filter: brightness(0.3);
+  -ms-filter: brightness(0.3);
+  -o-filter: brightness(0.3);
+  filter: brightness(0.3);
   opacity: .3;
   max-width: 100%;
   position: relative;
@@ -4816,6 +4828,7 @@ Copyright Row Css*/
 }
 .cp-instagram-listed li img{
 	width: 85px;
+	height: 85px;
 }
 /*=========================================*/
 /*Animation Css*/
