@@ -194,6 +194,10 @@ textarea {resize: none;}
 	width: 100%;
 	position: relative;
 }
+.newsphoto
+{
+	height: 200px;
+}
 figure{
 	position: relative;
 	overflow: hidden;
@@ -657,6 +661,7 @@ ul.top-info > li > span {display: inline-block;}
 	margin-left: -140px;
 	width: calc(100% + 280px);
 	padding-left: 100px;
+	padding-right: 100px;
 	position: relative;
 	-webkit-border-radius: 0 0 5px 5px;
 	border-radius: 0 0 5px 5px;
