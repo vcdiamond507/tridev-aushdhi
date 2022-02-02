@@ -879,7 +879,6 @@ ul.top-info > li i {margin-right: 3px;}
 .cp-inner-banner-section{
 	float: left;
 	width: 100%;
-	background: url('img/inner-banner-img-01.jpg') top center no-repeat;
 	background-size: cover;
 	padding: 300px 0 120px;
 	position: relative;
@@ -3915,7 +3914,17 @@ Filterable Gallery Css*/
 }
 .product-thumb img{
 	width: 100%;
-	height: auto;
+	height: 350px;
+}
+.pricebtn
+{
+	background-color: rgb(48, 94, 48);
+	color: rgb(226, 226, 226);
+	margin-bottom: 5px;
+	font-size: 20px;
+	width: 80%;
+	height:40px;
+	border-radius: 0.25rem;
 }
 .product-thumb:hover img{
 	-webkit-transform: scale(1.2) rotate(3deg);
