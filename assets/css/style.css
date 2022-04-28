@@ -5318,6 +5318,7 @@ nav div ul li.menu-item-has-children:hover > ul > li {
   width: 100%;
 }
 .res-header-top {
+	display: flex;
   float: left;
   width: 100%;
   background-color: #886b6b;
