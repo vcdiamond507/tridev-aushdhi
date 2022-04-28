@@ -5321,8 +5321,7 @@ nav div ul li.menu-item-has-children:hover > ul > li {
 	display: flex;
   float: left;
   width: 100%;
-  background-color: #886b6b;
-  text-align: center;
+  background-color: #155c0c;
 }
 .res-header-top > * {
   float: left;
